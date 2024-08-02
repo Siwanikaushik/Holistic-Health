@@ -1,0 +1,97 @@
+/* blog.css */
+
+/* Ensures the entire header fits within the viewport and contains the logo */
+.navbar {
+    color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%; /* Ensures the navbar spans the full width */
+    z-index: 1000; /* Ensures the navbar stays on top */
+  }
+/* Adjusts the size and positioning of the logo within the navbar */
+.navbar-brand img {
+    width: 15%; /* Adjust the width to increase the size of the logo */
+    height: auto; /* Maintains the aspect ratio */
+    max-height: 70px; /* Optional: Set a maximum height to ensure the logo stays within the header */
+    margin-right: 10px; /* Adjust spacing if needed */
+    position: absolute;
+    top: 0; /* Ensures the logo is aligned with the top of the header */
+  }
+  
+
+
+  
+  /* Ensures carousel items do not overflow */
+  .carousel-item {
+    height: 350px; /* Adjust the height as needed */
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Ensures body takes full viewport height */
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Ensures rows are centered and take full width */
+  .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+  }
+  
+  /* Styles columns and background image */
+  .col {
+    width: 100%;
+    height: 100%;
+    background-image: url("IMAGES/note.png");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the background image covers the column */
+    padding-bottom: 30px;
+    padding-top: 40px;
+    border: none;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color:antiquewhite;
+    border: none;
+  }
+  
+  /* Card text styles */
+  .card-body p {
+    color: rgb(19, 161, 232);
+  }
+  
+  /* Card title and text sizes */
+  .card-title {
+    font-size: 20px;
+  }
+  
+  .card-text {
+    font-size: 15px;
+  }
+  
+  /* Carousel styling */
+  .carousel {
+    margin-bottom: 10px;
+    border-bottom: 2px solid;
+    color: rgb(23, 206, 87);
+  }
+  /* Custom background color for carousel control buttons */
+.carousel-control-prev, 
+.carousel-control-next {
+  background-color: #ddaa33a2; /* Change this to your desired background color */
+  padding: 10px; /* Optional: Adjusts the size of the buttons */
+}
+
+/* Custom color for the control icons */
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+  background-image: none; /* Removes default icon background */
+  color: #ffffff; /* Change this to your desired icon color */
+}

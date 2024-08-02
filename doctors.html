@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Directory</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="records.html">Records</a></li>
+                <li><a href="appointments.html">Appointments</a></li>
+                <li><a href="medication.html">Medication</a></li>
+                <li><a href="consultation.html">Consultation</a></li>
+                <li><a href="diet.html">Diet Plans</a></li>
+                <li><a href="disease.html">Disease Management</a></li>
+                <li><a href="stress.html">Stress Management</a></li>
+                <li><a href="education.html">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Find a Doctor</h1>
+        <form>
+            <label for="specialty">Specialty:</label>
+            <select id="specialty" name="specialty">
+                <option value="general">General Practitioner</option>
+                <option value="pediatrician">Pediatrician</option>
+                <option value="cardiologist">Cardiologist</option>
+            </select>
+            
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+            
+            <button type="submit">Search</button>
+        </form>
+        <div id="doctor-list">
+            <!-- List of doctors will be displayed here -->
+        </div>
+    </main>
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Email: support@healthcareconnect.com</p>
+        <p>Phone: +123 456 7890</p>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
