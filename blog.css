@@ -2,12 +2,13 @@
 
 /* Ensures the entire header fits within the viewport and contains the logo */
 .navbar {
-    color: #ffffff;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    width: 100%; /* Ensures the navbar spans the full width */
-    z-index: 1000; /* Ensures the navbar stays on top */
+    color: hsla(0, 0%, 95%, 0.92);
+                box-shadow: 5px 5px 5px rgba(16, 16, 16, 0.1);
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1000; /* Ensure the navbar stays on top */
+
   }
 /* Adjusts the size and positioning of the logo within the navbar */
 .navbar-brand img {
