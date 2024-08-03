@@ -3,7 +3,7 @@ body{
     height: 100vh;
   
 
-        background-image: url("IMAGES/polka.jpg");
+        background-image: url("polka.jpg");
         background-size: cover ;
         background-attachment: fixed;
         background-repeat: no-repeat;
